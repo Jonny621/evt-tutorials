@@ -1,0 +1,22 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bignumber.js": "^9.1.0",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.7.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "rlp": "^3.0.0",
+    "solc": "^0.8.7-fixed",
+    "web3": "^1.7.5"
+  }
+}
