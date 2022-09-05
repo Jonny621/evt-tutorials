@@ -12,13 +12,13 @@
     "axios": "^0.27.2",
     "bignumber.js": "^9.1.0",
     "dotenv": "^16.0.1",
+    "elliptic": "^6.5.4",
     "ethers": "^5.7.0",
     "fs": "^0.0.1-security",
+    "mock-require": "^3.0.3",
     "path": "^0.12.7",
     "rlp": "^3.0.0",
     "solc": "^0.8.7-fixed",
-    "web3": "^1.7.5",
-    "elliptic": "^6.5.4",
-    "mock-require": "^3.0.3"
+    "web3": "^1.7.5"
   }
 }
