@@ -3,13 +3,6 @@ const crypto = require('crypto');
 const PRIME_LENGTH = 512; // 素数p的长度
 const GENERATOR = 2; // 素数a
 
-function addTo16(value) {
-    while(value.length % 16 != 0) {
-        value += '\0'
-    }
-    return Buffer.from(value, 'utf-8')
-}
-
 module.exports = {
     DHClient: function(){
         const client = crypto.createDiffieHellman(PRIME_LENGTH, GENERATOR);
